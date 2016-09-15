@@ -1,0 +1,10 @@
+body {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-family: 'Roboto', 'Noto Sans JP', 'Meiryo', sans-serif;
+    border-radius: 0;
+}
+
+.navbar {
+    border-width: 0;
+}
