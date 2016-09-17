@@ -2,9 +2,40 @@ body {
     padding-top: 70px;
     padding-bottom: 70px;
     font-family: 'Roboto', 'Noto Sans JP', 'Meiryo', sans-serif;
+    font-size: 12pt;
     border-radius: 0;
 }
 
+a {
+    color: deepskyblue;
+}
+
+.navlink {
+    color: lightskyblue;
+}
+
+h1 {
+    font-family: 'Khula', 'Meiryo', sans-serif;
+}
+
 .navbar {
+    background-color: black;
     border-width: 0;
+    font-family: 'Titillium Web', 'Meiryo', sans-serif;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: whitesmoke;
+}
+
+.navbar-default .navbar-text {
+    color: whitesmoke;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: lightskyblue;
+}
+
+.navbar-default .navbar-brand {
+    color: whitesmoke;
 }

@@ -3,11 +3,12 @@
 "use strict";
 var $ = require('jquery');
 function queryContent(param) {
+    var path = param.replace(".", "/");
     var prefix = 'content/';
     var content;
     try {
-        var settings = syncAjax(prefix + param + '.json');
-        var markdown = syncAjax(prefix + param + '.md');
+        var settings = syncAjax(prefix + path + '.json');
+        var markdown = syncAjax(prefix + path + '.md');
         content = {
             settings: settings,
             content: markdown
