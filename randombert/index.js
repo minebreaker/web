@@ -20,7 +20,8 @@
         app.append(
             $('<button/>', {
                 id: 'regenerator',
-                text: 'click'
+                class: 'btn btn-default btn-lg btn-block',
+                text: 'Go'
             }));
 
         $('#regenerator').on({
