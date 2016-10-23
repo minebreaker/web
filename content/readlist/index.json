@@ -1,0 +1,10 @@
+{
+  "title": "読み物",
+  "sidebar": {
+    "labels": ["Top"],
+    "links": ["#/index"]
+  },
+  "footer": {
+    "fixed": true
+  }
+}
