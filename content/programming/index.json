@@ -1,7 +1,10 @@
 {
-  "title": "Markdown Sample",
+  "title": "Programming",
   "sidebar": {
     "labels": ["Top"],
     "links": ["#/index"]
+  },
+  "footer": {
+    "fixed": true
   }
 }

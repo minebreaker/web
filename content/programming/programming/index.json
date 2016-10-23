@@ -1,0 +1,10 @@
+{
+  "title": "プログラミング一般",
+  "sidebar": {
+    "labels": ["Top", "Programming"],
+    "links": ["#/index", "#/programming.index"]
+  },
+  "footer": {
+    "fixed": true
+  }
+}

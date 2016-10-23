@@ -1,0 +1,10 @@
+{
+  "title": "Singleton",
+  "sidebar": {
+    "labels": ["Top", "Programming", "DesignPattern"],
+    "links": ["#/index", "#/programming.index", "#/programming.designpattern.index"]
+  },
+  "footer": {
+    "fixed": true
+  }
+}

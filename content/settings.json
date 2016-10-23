@@ -1,10 +1,10 @@
 {
   "header": {
-    "title": "Aoba",
-    "labels": ["Top", "Sample"],
-    "links": ["#/index", "#/subdir.sample"]
+    "title": "Idiotproof",
+    "labels": ["Top"],
+    "links": ["#/index"]
   },
   "footer": {
-    "content": "Aoba 0.1.0 alpha"
+    "content": "Idiotproof - Programming and other stuff"
   }
 }

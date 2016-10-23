@@ -1,8 +1,8 @@
 {
-  "title": "Welcome to Aoba",
+  "title": "Idiotproof",
   "sidebar": {
-    "labels": ["Top", "Sample"],
-    "links": ["#/index", "#/subdir.sample"]
+    "labels": ["Top"],
+    "links": ["#/index"]
   },
   "footer": {
     "fixed": true
