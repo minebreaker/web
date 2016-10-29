@@ -1,0 +1,10 @@
+{
+  "title": "Fixing Problems",
+  "sidebar": {
+    "labels": ["Top", "XKCD"],
+    "links": ["#/index", "#/xkcd.index"]
+  },
+  "footer": {
+    "fixed": true
+  }
+}

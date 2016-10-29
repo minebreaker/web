@@ -1,0 +1,10 @@
+{
+  "title": "Empirical",
+  "sidebar": {
+    "labels": ["Top", "XKCD"],
+    "links": ["#/index", "#/xkcd.index"]
+  },
+  "footer": {
+    "fixed": true
+  }
+}
