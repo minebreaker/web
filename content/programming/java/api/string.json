@@ -1,0 +1,10 @@
+{
+  "title": "String",
+  "sidebar": {
+    "labels": ["Top", "Programming", "Java"],
+    "links": ["#/index", "#/programming.index", "#/programming.java.index"]
+  },
+  "footer": {
+    "fixed": false
+  }
+}

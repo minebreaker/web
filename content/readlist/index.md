@@ -10,10 +10,12 @@
 * [ビックマック vs 裸のシェフ](http://www.joelonsoftware.com/articles/fog0000000024.html) [邦訳](http://japanese.joelonsoftware.com/Articles/BigMacsvs.TheNakedChef.html)  
 SIerが何故ダメなのかがよくわかるアーティクル。
 
-### [Steve YeggeのGoogleとプラットフォームに関するぶっちゃけ話](https://plus.google.com/+RipRowan/posts/eVeouesvaVX) [邦訳](http://anond.hatelabo.jp/20111018190933)
+### [Steve YeggeのGoogleとプラットフォームに関するぶっちゃけ話](https://plus.google.com/+RipRowan/posts/eVeouesvaVX)
+#### [邦訳](http://anond.hatelabo.jp/20111018190933)
 マイクロサービスはやってるよなぁ。
 
-### [名詞の王国](http://steve-yegge.blogspot.jp/2006/03/execution-in-kingdom-of-nouns.html?m=1) [邦訳](http://d.hatena.ne.jp/kazu-yamamoto/20080722/1216734420)
+### [名詞の王国](http://steve-yegge.blogspot.jp/2006/03/execution-in-kingdom-of-nouns.html?m=1)
+#### [邦訳](http://d.hatena.ne.jp/kazu-yamamoto/20080722/1216734420)
 個人的には逆に名詞も嫌いじゃないが。
 
 ### [Javaの理論と実践: 可変性か、不変性か?](https://www.ibm.com/developerworks/jp/java/library/j-jtp02183/)
@@ -28,3 +30,9 @@ SIerが何故ダメなのかがよくわかるアーティクル。
 ### [Why getter and setter methods are evil](http://www.javaworld.com/article/2073723/core-java/why-getter-and-setter-methods-are-evil.html)
 ### [Getters/Setters. Evil. Period.](http://www.yegor256.com/2014/09/16/getters-and-setters-are-evil.html)
 個人的にはここまで『純粋なオブジェクト指向』にこだわる必要はない気がする。
+
+### [Refucktoring](http://chris-alexander.co.uk/on-engineering/dev/refucktoring-my-take/)
+> プロジェクトが進むにつれて、開発者はだんだんと使い捨てされていく。
+> リファックタリングは開発者の仕事の安全を保障するものだ。
+> コードの働きを変えないままできる限り複雑にして、メンテナンス出来る人を自分だけにすることで、仕事を続けやすくするのだ。
+SIerの仕事ってまさにこんな感じだからなぁ  
