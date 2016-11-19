@@ -1,0 +1,10 @@
+{
+  "title": "Hand Sanitizer",
+  "sidebar": {
+    "labels": ["Top", "XKCD"],
+    "links": ["#/index", "#/xkcd.index"]
+  },
+  "footer": {
+    "fixed": true
+  }
+}

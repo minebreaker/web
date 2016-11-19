@@ -23,3 +23,6 @@
 [Frankenstein](#/xkcd.frankenstein)  
 [Genetic Testing](#/xkcd.genetic_testing)  
 [Goto](#/xkcd.goto)  
+[Hand Sanitizer](#/xkcd.hand_sanitizer)  
+[HDTV](#/xkcd.hdtv)  
+[Headache](#/xkcd.headache)  

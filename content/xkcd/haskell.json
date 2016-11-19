@@ -1,0 +1,10 @@
+{
+  "title": "Haskell",
+  "sidebar": {
+    "labels": ["Top", "XKCD"],
+    "links": ["#/index", "#/xkcd.index"]
+  },
+  "footer": {
+    "fixed": true
+  }
+}

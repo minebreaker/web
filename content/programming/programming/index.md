@@ -24,6 +24,12 @@ Once And Only Once原則
 日本語的には、「車輪の再発明」。  
 ちなみになんでもコピーペーストすることをWET原則(Write every time)という。  
 
+## KISS原則
+Keep it simple stupid  
+ロッキード社でSR-71を作っていた人の言葉。  
+シンプルにしろ、間抜け。  
+複雑なものを作るよりも、シンプルなものを作ることの方がずっと難しい。  
+
 ## 単一責任原則
 Single Responsibility Principle  
 ひとつのクラスは一つ以上の機能を持ってはいけない。  
