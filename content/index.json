@@ -1,8 +1,8 @@
 {
   "title": "Idiotproof",
   "sidebar": {
-    "labels": ["Randombert", "Top"],
-    "links": ["https://minebreaker_tf.bitbucket.io/randombert/", "#/index"]
+    "labels": ["Top", "Randombert"],
+    "links": ["#/index", "http://tk2-231-25016.vs.sakura.ne.jp/web/randombert/"]
   },
   "footer": {
     "fixed": true

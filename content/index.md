@@ -8,9 +8,9 @@
 
 ### [Programming](#/programming.index)
 プログラミングに関する基礎知識
+
 ### [読み物](#/readlist.index)
 プログラミングに関する読み物リンク集
-### [Randombert](https://minebreaker_tf.bitbucket.io/randombert/)
+
+### [Randombert](http://tk2-231-25016.vs.sakura.ne.jp/web/randombert/)
 Dilbertへのランダムなリンクを生成 暇つぶしにどうぞ
-### [XKCD](#/xkcd.index)
-XKCDの翻訳

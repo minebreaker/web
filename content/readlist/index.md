@@ -29,10 +29,12 @@ SIerが何故ダメなのかがよくわかるアーティクル。
 
 ### [Why getter and setter methods are evil](http://www.javaworld.com/article/2073723/core-java/why-getter-and-setter-methods-are-evil.html)
 ### [Getters/Setters. Evil. Period.](http://www.yegor256.com/2014/09/16/getters-and-setters-are-evil.html)
-個人的にはここまで『純粋なオブジェクト指向』にこだわる必要はない気がする。
+個人的にはここまで『純粋なオブジェクト指向』にこだわる必要はない気がする。  
+まあゲッターセッターはあれだけど。
 
 ### [Refucktoring](http://chris-alexander.co.uk/on-engineering/dev/refucktoring-my-take/)
 > プロジェクトが進むにつれて、開発者はだんだんと使い捨てされていく。
 > リファックタリングは開発者の仕事の安全を保障するものだ。
 > コードの働きを変えないままできる限り複雑にして、メンテナンス出来る人を自分だけにすることで、仕事を続けやすくするのだ。
+
 SIerの仕事ってまさにこんな感じだからなぁ  
