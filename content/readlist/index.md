@@ -38,3 +38,5 @@ SIerが何故ダメなのかがよくわかるアーティクル。
 > コードの働きを変えないままできる限り複雑にして、メンテナンス出来る人を自分だけにすることで、仕事を続けやすくするのだ。
 
 SIerの仕事ってまさにこんな感じだからなぁ  
+
+### [Asshole driven development](http://scottberkun.com/2007/asshole-driven-development/)
