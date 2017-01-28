@@ -1,0 +1,10 @@
+{
+  "title": "Antlr 文法",
+  "sidebar": {
+    "labels": ["Top", "Programming", "Antlr"],
+    "links": ["#/index", "#/programming.index", "#/programming.antlr.index"]
+  },
+  "footer": {
+    "fixed": false
+  }
+}
