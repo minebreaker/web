@@ -87,5 +87,21 @@ public Obj Func(@Nonnull Obj param) { // パラメーターはnullであって�
 ```
 
 
+## Resolver
+[http://winterbe.com/posts/2015/03/15/avoid-null-checks-in-java/](http://winterbe.com/posts/2015/03/15/avoid-null-checks-in-java/)で紹介されていたパターン。
+```java
+public static <T> Optional<T> resolve(Supplier<T> resolver) {
+    try {
+        T result = resolver.get();
+        return Optional.ofNullable(result);
+    } catch (NullPointerException e) {
+        return Optional.empty();
+    }
+}
+```
+NPEが発生する可能性のある処理をラムダ式の中にまとめて書く。
+例外をキャッチした場合、空のオプショナルを返す。
+
+
 ## 参考
 [Google Guava](https://github.com/google/guava/wiki/UsingAndAvoidingNullExplained)
