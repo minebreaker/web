@@ -111,5 +111,5 @@ public void test6() {
 
 正しく計算されていることが分かる。
 
-[環境構築](#/programming.antlr.prepare)  
-[文法ファイル](#/programming.antlr.g4)  
+[環境構築](prepare)  
+[文法ファイル](g4)  

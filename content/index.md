@@ -6,10 +6,10 @@
 
 ## Contents
 
-### [Programming](#/programming.index)
+### [Programming](programming/index)
 プログラミングに関する基礎知識
 
-### [読み物](#/readlist.index)
+### [読み物](readlist/index)
 プログラミングに関する読み物リンク集
 
 ### [Randombert](http://tk2-231-25016.vs.sakura.ne.jp/web/randombert/)

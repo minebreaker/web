@@ -1,2 +1,2 @@
 
-* [Singleton](#/programming.designpattern.singleton)
+* [Singleton](singleton)

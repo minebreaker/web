@@ -1,10 +1,3 @@
 {
-  "header": {
-    "title": "Idiotproof",
-    "labels": ["Top"],
-    "links": ["#/index"]
-  },
-  "footer": {
-    "content": "Idiotproof - Programming and other stuff"
-  }
+  "title": "Idiotproof"
 }

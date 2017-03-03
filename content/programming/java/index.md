@@ -2,10 +2,10 @@
 現代のCOBOLことJavaのAPIとライブラリーについて
 
 ## API
-* [String](#/programming.java.api.string)
+* [String]api/string)
 
-### [型変換 (1)](#/programming.java.api.convert)
+### [型変換 (1)](api/convert)
 
-### [Nullを避ける](#/programming.java.null)
+### [Nullを避ける](null)
 
-### [スタックトレースを文字列に](#/programming.java.cookbook.stacktrace)
+### [スタックトレースを文字列に](cookbook/stacktrace)
