@@ -24,7 +24,7 @@ Range(1, 11).filter { _ % 2 == 0 }
             .sum
 ```
 
-インラインで書こうとすると`sum`が後置記法になってしまうので、代わりにreduce`。
+インラインで書こうとすると`sum`が後置記法になってしまうので、代わりに`reduce`。
 (一応[「慣用的かつ許容し得る」](http://yanana.github.io/scala-style/method_invocation/arity0/suffix_notation.html)らしい)
 
 ```scala
