@@ -2,7 +2,7 @@
 現代のCOBOLことJavaのAPIとライブラリーについて
 
 ## API
-* [String]api/string)
+* [String](api/string)
 
 ### [型変換 (1)](api/convert)
 
