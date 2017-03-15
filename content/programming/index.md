@@ -5,5 +5,9 @@
 現代のCOBOLことJavaのあれこれ
 
 ## [Antlr](antlr/index)
+
+## プログラミング言語比較
+* [MapReduce](compare/mapreduce)
+
 ## [デザインパターン](designpattern/index)
 ## [プログラミング一般](programming/index)
