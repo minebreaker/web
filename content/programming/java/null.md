@@ -27,11 +27,11 @@ nullを戻り値にしたいと思ったとき、その必要があるか立ち�
 
 ```java
 String returnsString() {
-    ""; // nullではなく空の文字列を返す
+    return ""; // nullではなく空の文字列を返す
 }
 
 List returnsList() {
-    Collections.emptyList(); // 空のリスト
+    return Collections.emptyList(); // 空のリスト
 }
 
 SomeEnum returnsEnum() {
