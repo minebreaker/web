@@ -1,6 +1,8 @@
 
 プログラミング関係の読み物まとめ
 
+そのうち整理します。そのうち。
+
 ### [Joel on Software](http://www.joelonsoftware.com/)
 #### [邦訳](http://japanese.joelonsoftware.com/index.html) [邦訳2](http://local.joelonsoftware.com/wiki/Main_Page)  
 ジョエル・テストで有名なJoel Spolskyのサイト。  
@@ -40,3 +42,16 @@ SIerが何故ダメなのかがよくわかるアーティクル。
 SIerの仕事ってまさにこんな感じだからなぁ  
 
 ### [Asshole driven development](http://scottberkun.com/2007/asshole-driven-development/)
+
+### [The Programming Interview from Hell](http://pythonforengineers.com/the-programming-interview-from-hell/)
+
+### [A Brief, Incomplete, and Mostly Wrong History of Programming Languages](http://james-iry.blogspot.jp/2009/05/brief-incomplete-and-mostly-wrong.html) [邦訳](http://www.aoky.net/articles/james_iry/brief-incomplete-and-mostly-wrong.htm)
+悪名高い「モナドは単なる自己関手の圏におけるモノイド対象だよ。何か問題でも？」の出典。個人的にはFortranのところがお気に入り。
+
+### [Stack Overflow: A Technical Deconstruction](https://nickcraver.com/blog/2016/02/03/stack-overflow-a-technical-deconstruction/)
+有名なQAサイト[Stack Overflow](http://stackoverflow.com/)のアーキテクチャーの解説。現実のWebサイトがどう運用されているのか、とても面白く参考になる。おすすめ。
+
+### [How to Worry Less About Being a Bad Programmer](https://www.stilldrinking.org/how-to-worry-less-about-being-a-bad-programmer)
+
+### [Dhh: I would fail to write bubble sort on a whiteboard](https://news.ycombinator.com/item?id=13739329)
+マージソートなら書けるんだろう(適当)
