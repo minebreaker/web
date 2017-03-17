@@ -1,11 +1,13 @@
 プログラミング言語間のMap、Reduceの方法の比較
 
+
 ## やっていること
 
 1. 1から10までの数字の配列を作成
 2. 偶数の値を取り出す
 3. 各値を2乗
 4. 合計する
+
 
 ## Java
 
@@ -34,6 +36,12 @@ Range(1, 11) filter { _ % 2 == 0 } map { n => n * n } reduce { _ + _ }
 [Scala的にはドットを省略するべき](http://yanana.github.io/scala-style/method_invocation/arity1/higher_order_functions.html)だそうだが、
 複数行のメソッドチェーンだとエラーになってしまう。どうするのがいいんだろう...。
 
+```scala
+val seq = for (i <- 1 to 11 if i % 2 == 0) yield i * i
+seq.sum
+```
+yieldを使う場合。
+
 
 ## Kotlin
 
@@ -42,6 +50,7 @@ IntRange(1, 11).filter { n -> n.mod(2) == 0 }
                .map { n -> n * n }
                .reduce { r, n -> r + n }
 ```
+
 
 ## Clojure
 
@@ -61,6 +70,7 @@ IntRange(1, 11).filter { n -> n.mod(2) == 0 }
   (reduce #(+ %1 %2)))
 ```
 
+
 ## Python
 
 ```python
@@ -79,6 +89,7 @@ res = sum([n * n for n in nums if n % 2 == 0])
 
 内包表記を使う方がPythonっぽいんだろうか。インラインで書くのもPythonらしくない気がする。
 
+
 ## Ruby
 
 ```ruby
@@ -89,6 +100,7 @@ res = pow.reduce { |r, n| r + n } # inject
 ```
 
 なんで同機能の異名メソッドがあるんですか(激怒)
+
 
 ### 参考
 * [配列(リスト)から特定の条件にマッチする要素のみを取り出すには](https://hydrocul.github.io/wiki/programming_languages_diff/list/filter.html)
