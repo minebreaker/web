@@ -2,16 +2,16 @@ RyzenでPCを組んだので紹介。
 このページに特に役に立つ情報はありません。  
 スマホで撮った画像なので汚いのはご愛敬。  
 
-[1.JPG](https://tk2-231-25016.vs.sakura.ne.jp/web/content/hardware/1.JPG)  
-[2.JPG](https://tk2-231-25016.vs.sakura.ne.jp/web/content/hardware/2.JPG)  
+<img src="/web/content/hardware/1.JPG" style="max-width: 90%">  
+<img src="/web/content/hardware/2.JPG" style="max-width: 90%">  
 Ryzenロゴがかっこいい。  
-[3.JPG](https://tk2-231-25016.vs.sakura.ne.jp/web/content/hardware/3.JPG)  
+<img src="/web/content/hardware/3.JPG" style="max-width: 90%">  
 最近のグラボはでかすぎだと思う。  
 
 
 ## スペック
 
-|||
+|パーツ|製品|
 |:-|:-|
 |CPU|AMD Ryzen 1800X|
 |CPUクーラー|Cooler Master Vortex Plus|
@@ -36,3 +36,4 @@ Ryzenロゴがかっこいい。
 * 電源は適当。ネットには容量厨が多いけれど、実際のところそんなに使い切らないはず。
 * Fractal Designは割と事前評判がよかったので使ってみたが、パーツのかみ合わせが意外と悪くて苦労した。裏配線はやりやすい。あとフルタワーなので重い。貧弱なプログラマーだと筋肉痛になるぐらい(笑)。
 * 間違えてWin10 Homeを買っていた。リモートデスクトップとHyper-Vが動かないのは致命的なので、泣く泣くアップグレード。
+* なぜかUSBがスマホ(ZenFone2)を認識しない。そのほかのデバイスは認識するので相性か。USB周りはほかでもトラブルが起こっているらしいので、BIOSアップデート待ち。
