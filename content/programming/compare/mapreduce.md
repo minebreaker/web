@@ -102,6 +102,23 @@ res = pow.reduce { |r, n| r + n } # inject
 なんで同機能の異名メソッドがあるんですか(激怒)
 
 
+## PHP
+
+```php
+$arr = range(1, 10); // inclusive
+$even = array_filter($arr, function ($n) {
+    return $n % 2 == 0;
+});
+$pow = array_map(function ($n) {
+    return $n * $n;
+}, $even);
+// use array_sum() in production!
+$res = array_reduce($pow, function ($rest, $n) {
+    return $rest + $n;
+});
+```
+
+
 ### 参考
 * [配列(リスト)から特定の条件にマッチする要素のみを取り出すには](https://hydrocul.github.io/wiki/programming_languages_diff/list/filter.html)
 * [map と collect、reduce と inject ―― 名前の違いに見る発想の違い](http://magazine.rubyist.net/?0038-MapAndCollect)
