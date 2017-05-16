@@ -4,6 +4,9 @@
 ## [Java](java/index)
 現代のCOBOLことJavaのあれこれ
 
+## [Bash](bash/index)
+もうゴールしてもいいよね...
+
 ## [Antlr](antlr/index)
 
 ## プログラミング言語比較
