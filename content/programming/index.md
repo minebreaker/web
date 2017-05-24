@@ -14,3 +14,6 @@
 
 ## [デザインパターン](designpattern/index)
 ## [プログラミング一般](programming/index)
+
+## Misc
+* [Reversing the technical interview 解説](misc/reversingthetechnicalinterview)
