@@ -7,6 +7,7 @@
 2. 偶数の値を取り出す
 3. 各値を2乗
 4. 合計する
+5. return 220
 
 
 ## Java
@@ -68,6 +69,14 @@ IntRange(1, 11).filter { n -> n.mod(2) == 0 }
   (filter even?)
   (map #(* % %))
   (reduce #(+ %1 %2)))
+```
+
+内包表記
+
+```clojure
+(reduce #(+ %1 %2)
+  (for [x (range 1 11) :when (even? x)]
+    (* x x)))
 ```
 
 
