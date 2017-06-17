@@ -128,6 +128,50 @@ $res = array_reduce($pow, function ($rest, $n) {
 ```
 
 
+## C#
+
+```csharp
+var num = ImmutableList.Create(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11);
+var even = num.Where(n => n % 2 == 0);
+var pow = even.Select(n => n * n);
+var res = pow.Sum();
+```
+
+LINQ
+
+```csharp
+var pow = from n in Enumerable.Range(1, 11)
+          where n % 2 == 0
+          select n * n;
+var res = pow.Aggregate((r, n) => r + n);
+```
+
+
+# F#
+
+```fsharp
+let num = List.ofSeq(Enumerable.Range(1, 11))
+let even = List.filter (fun n -> n % 2 = 0) num
+let pow = List.map (fun n ->n * n) even
+let res = List.reduce (fun r n -> r + n) pow
+```
+
+パイプライン演算子
+
+```fsharp
+[1..11]
+|> List.filter (fun n -> n % 2 = 0)
+|> List.map (fun n ->n * n)
+|> List.sum
+```
+
+内包表記
+
+```fsharp
+[ for n in  1 .. 11 do if n % 2 = 0 then yield n * n] |> List.sum
+```
+
+
 ### 参考
 * [配列(リスト)から特定の条件にマッチする要素のみを取り出すには](https://hydrocul.github.io/wiki/programming_languages_diff/list/filter.html)
 * [map と collect、reduce と inject ―― 名前の違いに見る発想の違い](http://magazine.rubyist.net/?0038-MapAndCollect)
