@@ -128,7 +128,7 @@ $res = array_reduce($pow, function ($rest, $n) {
 ```
 
 
-## C#
+<h2>C#</h2>
 
 ```csharp
 var num = ImmutableList.Create(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11);
@@ -147,7 +147,7 @@ var res = pow.Aggregate((r, n) => r + n);
 ```
 
 
-# F#
+<h2>F#</h2>
 
 ```fsharp
 let num = List.ofSeq(Enumerable.Range(1, 11))
