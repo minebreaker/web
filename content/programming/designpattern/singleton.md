@@ -58,7 +58,7 @@ public class Foo {
 }
 ```
 
-Javaにおいて、クラスの初期化がスレッドセーフで行われることを利用した手法。  
+Javaでは、静的フィールドの初期化が、クラスローダーがクラスを読み込むとき、同期されて行われることを利用した手法。  
 これならスレッドセーフかつ、パフォーマンスの劣化がない。  
 
 ```java
@@ -131,7 +131,23 @@ public class Foo {
 
 ## じゃあどうするの?
 以上の問題はオブジェクトがシングルトンであることそれ自体にあるのではなく、Singletonパターンに固有のもの。  
-従って、DIパターンを使って疎結合なプログラムを実現すればよい。  
+従って、Dependecy Injectionパターンを使って疎結合なプログラムを実現すればよい。  
+
+```java
+
+// Java EE CDI
+@ApplicationScoped
+// EJB
+@Singleton
+// Guice
+@Singleton
+public class Foo {
+}
+```
+
+[大混乱に陥っているJavaEE 6のアノテーションに関する使い分けについて](http://d.hatena.ne.jp/ryoasai/20101010/1286677038)  
+[Difference between @Stateless and @Singleton](https://stackoverflow.com/questions/14464823/difference-between-stateless-and-singleton)  
+ひえっ
 
 [シングルトンの賢い使用法](http://www.ibm.com/developerworks/jp/webservices/library/co-single.html)  
 なかなか参考になる記事なので、ぜひご一読を。  
