@@ -2,17 +2,17 @@ RyzenでPCを組んだので紹介。
 このページに特に役に立つ情報はありません。  
 スマホで撮った画像なので汚いのはご愛敬。  
 
-<img src="/web/content/hardware/1.JPG" style="max-width: 90%">  
-<img src="/web/content/hardware/2.JPG" style="max-width: 90%">  
+![](1.JPG)  
+![](2.JPG)  
 Ryzenロゴがかっこいい。  
-<img src="/web/content/hardware/3.JPG" style="max-width: 90%">  
+![](3.JPG)  
 最近のグラボはでかすぎだと思う。  
 
 
 ## スペック
 
 |パーツ|製品|
-|:-|:-|
+|:-----|:---|
 |CPU|AMD Ryzen 1800X|
 |CPUクーラー|Cooler Master Vortex Plus|
 |マザーボード|ASRock X370 Taichi|
