@@ -18,6 +18,3 @@
 
 ### [PC](hardware/pc)
 自作PCの紹介。Ryzen
-
-### [Randombert](http://tk2-231-25016.vs.sakura.ne.jp/web/randombert/)
-Dilbertへのランダムなリンクを生成 暇つぶしにどうぞ
