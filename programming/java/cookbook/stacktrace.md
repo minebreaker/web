@@ -8,3 +8,7 @@ public static String stackTraceToString(Throwable t) {
     return sw.toString();
 }
 ```
+
+当然誰もがやろうとするので、Guavaにコンビニエンスメソッドがある。こっちを使おう。
+
+[Throwables.getStackTraceAsString](http://google.github.io/guava/releases/snapshot-jre/api/docs/com/google/common/base/Throwables.html#getStackTraceAsString-java.lang.Throwable-)
