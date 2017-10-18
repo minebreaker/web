@@ -3,6 +3,7 @@
 
 ## API
 * [String](api/string)
+* [Reference](api/reference)
 
 ### [型変換 (1)](api/convert)
 
