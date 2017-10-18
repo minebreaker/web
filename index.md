@@ -10,6 +10,9 @@
 
 ## Contents
 
+### [About](about)
+このサイトについて
+
 ### [Programming](programming/index)
 プログラミングに関する基礎知識
 
