@@ -211,3 +211,9 @@ img {
     vertical-align: text-top;
     fill: white;
 }
+
+/** パンくずリスト */
+.breadcrumb {
+    padding-top: 2.5em;
+    font-size: 0.7em;
+}
