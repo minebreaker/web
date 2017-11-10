@@ -46,6 +46,7 @@ td {
 /* ソースコードは折り返さない */
 pre {
     word-break: keep-all;
+    overflow-x: scroll !important; 
 }
 
 /* クローム拡張でスクロールバーを変更 */
