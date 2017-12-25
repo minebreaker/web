@@ -4,6 +4,8 @@
 ## [Java](java/index)
 現代のCOBOLことJavaのあれこれ
 
+## [Kotlin](kotlin/index)
+
 ## [Bash](bash/index)
 もうゴールしてもいいよね...
 
