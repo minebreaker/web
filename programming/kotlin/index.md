@@ -1,3 +1,4 @@
 "Java Done Right"ことKotlinに関するメモ
 
-[Basic Type](basictype)
+* [Basic Type](basictype)
+* [Data class](dataclass)
