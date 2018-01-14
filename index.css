@@ -43,38 +43,32 @@ td {
     background-color: lightgray
 }
 
-/* ソースコードは折り返さない */
-pre {
-    word-break: keep-all;
-    overflow-x: scroll !important; 
-}
-
 /* クローム拡張でスクロールバーを変更 */
-pre::-webkit-scrollbar {
+code::-webkit-scrollbar {
     width: 8px;
 }
 
-pre::-webkit-scrollbar:horizontal {
+code::-webkit-scrollbar:horizontal {
     height: 8px;
 }
 
-pre::-webkit-scrollbar-button {
+code::-webkit-scrollbar-button {
     display: none;
 }
 
-pre::-webkit-scrollbar-track-piece {
+code::-webkit-scrollbar-track-piece {
     background: darkslategray;
 }
 
-pre::-webkit-scrollbar-thumb {
+code::-webkit-scrollbar-thumb {
     background: lightgray;
 }
 
-pre::-webkit-scrollbar-thumb:hover {
+code::-webkit-scrollbar-thumb:hover {
     background: gray;
 }
 
-pre::-webkit-scrollbar-corner {
+code::-webkit-scrollbar-corner {
     display: none;
 }
 
