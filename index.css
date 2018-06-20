@@ -127,7 +127,7 @@ blockquote {
 }
 
 img {
-    max-width: 90%;
+    max-width: 90vw;
 }
 
 .site-link:hover {
@@ -136,46 +136,20 @@ img {
 
 /* ページ下部のナビゲーションアイコン */
 
-.visible-phone {
-    display: none !important;
-}
-
-.visible-pc {
-    display: block !important;
-}
-
-@media screen and ( max-width: 768px ) {
-
-    .visible-phone {
-        display: block !important;
-    }
-
-    .visible-pc {
-        display: none !important;
-    }
-
-}
-
-.nav-phone {
+.nav {
     position: fixed;
     right: 16px;
     bottom: 16px;
+    padding-right: 240px;
+    padding-left: 50px;
 }
 
-.cursor-pointer {
-    cursor: pointer;
-}
-
-.font-size-icon-popup {
-    position: fixed;
-    bottom: 64px;
-    right: 54px;
-}
-
-.theme-icon-popup {
-    position: fixed;
-    bottom: 64px;
-    right: 118px;
+@media screen and ( max-width: 768px ) {
+    .nav {
+        position: fixed;
+        padding-right: 24px;
+        padding-left: 24px;
+    }
 }
 
 .transparent {
@@ -186,15 +160,7 @@ img {
     fill: black;
 }
 
-.icon-theme-normal {
-    fill: black;
-    background-color: white;
-}
-
-.icon-theme-dark {
-    fill: white;
-    background-color: black;
-}
+/* 通知 */
 
 .notification {
     padding: 12px;
@@ -207,7 +173,7 @@ img {
     fill: white;
 }
 
-/** パンくずリスト */
+/* パンくずリスト */
 .breadcrumb {
     padding-top: 2.5em;
     font-size: 0.7em;

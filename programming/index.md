@@ -1,22 +1,22 @@
 
 現在工事中
 
-## [Java](java/index)
+## [Java](java)
 現代のCOBOLことJavaのあれこれ
 
-## [Kotlin](kotlin/index)
+## [Kotlin](kotlin)
 
-## [Bash](bash/index)
+## [Bash](bash)
 もうゴールしてもいいよね...
 
-## [Antlr](antlr/index)
+## [Antlr](antlr)
 
 ## プログラミング言語比較
-* [MapReduce](compare/mapreduce)
+* [MapReduce](compare/mapreduce.html)
 
-## [デザインパターン](designpattern/index)
-## [プログラミング一般](programming/index)
+## [デザインパターン](designpattern)
+## [プログラミング一般](programming)
 
 ## Misc
-* [Reversing the technical interview 解説](misc/reversingthetechnicalinterview)
-* [Brainfuck -> Javaバイトコード コンパイラー](brainfuck/brainfuck)
+* [Reversing the technical interview 解説](misc/reversingthetechnicalinterview.html)
+* [Brainfuck -> Javaバイトコード コンパイラー](brainfuck/brainfuck.html)

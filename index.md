@@ -10,14 +10,14 @@
 
 ## Contents
 
-### [About](about)
+### [About](about.html)
 このサイトについて
 
-### [Programming](programming/index)
+### [Programming](programming)
 プログラミングに関する基礎知識
 
-### [読み物](readlist/index)
+### [読み物](readlist)
 プログラミングに関する読み物リンク集
 
-### [PC](hardware/pc)
+### [PC](hardware/pc.html)
 自作PCの紹介。Ryzen

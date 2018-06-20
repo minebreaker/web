@@ -1,2 +1,2 @@
 
-* [Singleton](singleton)
+* [Singleton](singleton.html)

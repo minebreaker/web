@@ -111,5 +111,5 @@ public void test6() {
 
 正しく計算されていることが分かる。
 
-[環境構築](prepare)  
-[文法ファイル](g4)  
+[環境構築](prepare.html)  
+[文法ファイル](g4.html)  
