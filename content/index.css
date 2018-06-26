@@ -134,6 +134,10 @@ img {
     background-color: white;
 }
 
+.footer {
+    margin-top: 1rem;
+}
+
 /* ページ下部のナビゲーションアイコン */
 
 .nav {
