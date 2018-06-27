@@ -55,3 +55,41 @@ SIerの仕事ってまさにこんな感じだからなぁ
 
 ### [Dhh: I would fail to write bubble sort on a whiteboard](https://news.ycombinator.com/item?id=13739329)
 マージソートなら書けるんだろう(適当)
+
+### [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
+最近では「プログラミングなんて簡単だよ」という人も少なくなってきた気がするが。
+
+### [How To Become A Hacker](http://www.catb.org/~esr/faqs/hacker-howto.html)
+流石に内容が古い気がする。Microsoftもオープンな方向に舵を切り始め、ここらへんの扱いも変わってくるのではないだろか。
+あと「英語が喋れる」というのは間違いなく文化帝国主義だからやめたほうがいい。
+最近では英語を喋れることをやたらと持ち上げようとする風潮があるが、正直どうなのかと思う。
+
+### [Object Oriented Programming is an expensive disaster which must end](http://www.smashcompany.com/technology/object-oriented-programming-is-an-expensive-disaster-which-must-end)
+関数型自己中は嫌いだが、最近オブジェクト指向も嫌いであることに気づいた。
+まあ"disaster"は言い過ぎにしろ、staticおじさん叩きは一種の病気だったように思う。
+
+### [Dependency rejection](http://blog.ploeh.dk/2017/02/02/dependency-rejection/)
+個人的にはこの記事には賛成しない。
+
+
+### technical interview
+#### [Reversing the technical interview](https://aphyr.com/posts/340-reversing-the-technical-interview)
+#### [Hexing the technical interview](https://aphyr.com/posts/341-hexing-the-technical-interview)
+#### [Typing the technical interview](https://aphyr.com/posts/342-typing-the-technical-interview)
+リスト操作と言えば面接の定番だが、それで遊んだ傑作。
+[Reversing...の解説はこちら](/programming/misc/reversingthetechnicalinterview.html)。
+Hexing...はそのうち。。。
+
+### [スターバックスは2フェーズコミットを使わない](http://www.enterpriseintegrationpatterns.com/ramblings/18_starbucks.html)
+#### [邦訳](https://code.google.com/archive/p/gregors-ramblings-ja/wikis/18_starbucks.wiki)
+
+
+## 本
+
+### [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/index.html)
+古典。[序文](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-7.html#%_chap_Temp_4)はかなりの名文。
+始めの数章は面白い。それ以上になると難しくて。。。
+
+### [How to Design](http://www.htdp.org/2018-01-06/Book/index.html)
+
+古典。SICPの簡単版と言われる。読もう読もうと思って読んでない。
