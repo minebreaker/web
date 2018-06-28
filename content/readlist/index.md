@@ -83,6 +83,9 @@ Hexing...はそのうち。。。
 ### [スターバックスは2フェーズコミットを使わない](http://www.enterpriseintegrationpatterns.com/ramblings/18_starbucks.html)
 #### [邦訳](https://code.google.com/archive/p/gregors-ramblings-ja/wikis/18_starbucks.wiki)
 
+### [Taking PHP Seriously](https://slack.engineering/taking-php-seriously-cf7a60065329)
+PHPを安易に叩かないために。
+
 
 ## 本
 
