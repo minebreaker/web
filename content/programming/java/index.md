@@ -9,4 +9,9 @@
 
 ### [Nullを避ける](null.html)
 
+
+## Cookbook
+
 ### [スタックトレースを文字列に](cookbook/stacktrace.html)
+
+### [二段階認証 (TOTP)](cookbook/totp.html)
