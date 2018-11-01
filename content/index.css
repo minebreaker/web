@@ -19,11 +19,10 @@ body {
 }
 
 a {
-    color: gray;
+    color: darkslategray;
 }
 
 a:hover {
-    color: darkslategray;
     text-decoration: none;
     background-color: lightgray;
 }
@@ -98,7 +97,7 @@ code::-webkit-scrollbar-corner {
 }
 
 blockquote {
-    border-left: 3px solid black;
+    border-left: 2px solid darkslategray;
     padding-left: 10px;
 }
 

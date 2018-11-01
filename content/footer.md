@@ -1,9 +1,6 @@
-<div class="triclin-badge" data-user="10000" data-show-name="false"></div>
-<script src="https://triclin.com/triclin.js" crossorigin="anonymous" defer></script>
-
 <!--/* Nav bar */-->
 <div class="nav transparent">
-    <a href="/">
+    <a href="/" aria-label="Home">
         <!--/* icon-home */-->
         <svg xmlns="http://www.w3.org/2000/svg"
              class="icon"
@@ -14,7 +11,7 @@
             <path d="M20 40V28h8v12h10V24h6L24 6 4 24h6v16z" />
         </svg>
     </a>
-    <a href="#">
+    <a href="#" aria-label="Top">
         <!--/* icon-uparrow */-->
         <svg xmlns="http://www.w3.org/2000/svg"
              class="icon"
