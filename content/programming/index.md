@@ -19,4 +19,5 @@
 
 ## Misc
 * [Reversing the technical interview 解説](misc/reversingthetechnicalinterview.html)
+* [Hexing the technical interview 解説](misc/hexingthetechnicalinterview.html)
 * [Brainfuck -> Javaバイトコード コンパイラー](brainfuck/brainfuck.html)
