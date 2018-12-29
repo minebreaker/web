@@ -1,0 +1,237 @@
+[
+    {
+        "title": "Joel on Software",
+        "link": "http://www.joelonsoftware.com/",
+        "translationLink": "http://local.joelonsoftware.com/wiki/Main_Page",
+        "tag": [
+            "エンジニアリング",
+            "マネージメント"
+        ],
+        "comment": "ジョエル・テストで有名なJoel Spolskyのサイト。『<a href=\"http://local.joelonsoftware.com/wiki/2005-Jul-25_Hitting_the_High_Notes\">ソフトウェアにおける高音域</a>』『<a href=\"http://local.joelonsoftware.com/wiki/2001-Jan-18_Big_Macs_vs._The_Naked_Chef\">ビックマック vs 裸のシェフ</a>』は必読。他にも面白くかつためになる記事が山盛り。"
+    },
+    {
+        "title": "Steve YeggeのGoogleとプラットフォームに関するぶっちゃけ話",
+        "link": "https://plus.google.com/+RipRowan/posts/eVeouesvaVX",
+        "translationLink": "http://anond.hatelabo.jp/20111018190933",
+        "tag": [
+            "プラットフォーム"
+        ],
+        "comment": "プラットフォームの重要性を恐らく最初に指摘した有名記事。"
+    },
+    {
+        "title": "名詞の王国",
+        "link": "http://steve-yegge.blogspot.jp/2006/03/execution-in-kingdom-of-nouns.html?m=1",
+        "translationLink": "http://d.hatena.ne.jp/kazu-yamamoto/20080722/1216734420",
+        "tag": [
+            "Java",
+            "関数型プログラミング"
+        ],
+        "comment": "Steve YeggeによるJava批判。"
+    },
+    {
+        "title": "Javaの理論と実践: 可変性か、不変性か?",
+        "link": "https://www.ibm.com/developerworks/jp/java/library/j-jtp02183/",
+        "tag": [
+            "Java",
+            "関数型プログラミング"
+        ]
+    },
+    {
+        "title": "偉大なハッカー",
+        "link": "http://www.paulgraham.com/gh.html",
+        "tag": [
+            "エンジニアリング",
+            "カルチャー"
+        ],
+        "comment": "『ハッカーと画家』のあとがき部分の原文。「今の仕事で脳みそが腐ってるか心配しているとしたら、たぶん腐ってるよ」でドキッとする。"
+    },
+    {
+        "title": "Why getter and setter methods are evil",
+        "link": "http://www.javaworld.com/article/2073723/core-java/why-getter-and-setter-methods-are-evil.html",
+        "tag": [
+            "Java",
+            "Getter"
+        ],
+        "comment": "個人的にはここまで『純粋なオブジェクト指向』にこだわる必要はない気がする。ゲッターセッターがいいものとは思わないが。"
+    },
+    {
+        "title": "Getters/Setters. Evil. Period.",
+        "link": "http://www.yegor256.com/2014/09/16/getters-and-setters-are-evil.html",
+        "tag": [
+            "Java",
+            "Getter"
+        ],
+        "comment": "上記『Why getter and setter methods are evil』とセットで。"
+    },
+    {
+        "title": "Refucktoring",
+        "link": "http://chris-alexander.co.uk/on-engineering/dev/refucktoring-my-take/",
+        "tag": [
+            "マネージメント"
+        ],
+        "comment": "<blockquote>プロジェクトが進むにつれて、開発者はだんだんと使い捨てされていく。リファックタリングは開発者の仕事の安全を保障するものだ。コードの働きを変えないままできる限り複雑にして、メンテナンス出来る人を自分だけにすることで、仕事を続けやすくするのだ。</blockquote>"
+    },
+    {
+        "title": "Asshole driven development",
+        "link": "http://scottberkun.com/2007/asshole-driven-development/",
+        "tag": [
+            "マネージメント"
+        ]
+    },
+    {
+        "title": "The Programming Interview from Hell",
+        "link": "http://pythonforengineers.com/the-programming-interview-from-hell/",
+        "tag": [
+            "面接"
+        ]
+    },
+    {
+        "title": "A Brief, Incomplete, and Mostly Wrong History of Programming Languages",
+        "link": "http://james-iry.blogspot.jp/2009/05/brief-incomplete-and-mostly-wrong.html",
+        "translationLink": "http://www.aoky.net/articles/james_iry/brief-incomplete-and-mostly-wrong.htm",
+        "tag": [
+            "プログラミング言語"
+        ],
+        "comment": "悪名高い「モナドは単なる自己関手の圏におけるモノイド対象だよ。何か問題でも？」の出典。個人的にはFortranのところがお気に入り。"
+    },
+    {
+        "title": "Stack Overflow: A Technical Deconstruction",
+        "link": "https://nickcraver.com/blog/2016/02/03/stack-overflow-a-technical-deconstruction/",
+        "tag": [
+            "アーキテクチャー",
+            "エンジニアリング",
+            "ハードウェア"
+        ],
+        "comment": "有名なQAサイト<a href=\"http://stackoverflow.com/\">Stack Overflow</a>のアーキテクチャーの解説。現実のWebサイトがどう運用されているのか、とても面白く参考になる。おすすめ。"
+    },
+    {
+        "title": "How to Worry Less About Being a Bad Programmer",
+        "link": "https://www.stilldrinking.org/how-to-worry-less-about-being-a-bad-programmer",
+        "tag": [
+            "エンジニアリング"
+        ]
+    },
+    {
+        "title": "Dhh: I would fail to write bubble sort on a whiteboard",
+        "link": "https://news.ycombinator.com/item?id=13739329",
+        "tag": [
+            "プログラミング",
+            "アルゴリズム"
+        ],
+        "comment": "マージソートなら書けるんだろう(適当)"
+    },
+    {
+        "title": "Teach Yourself Programming in Ten Years",
+        "link": "http://norvig.com/21-days.html",
+        "tag": [
+            "アーキテクチャー",
+            "エンジニアリング",
+            "ハードウェア"
+        ],
+        "comment": "最近では「プログラミングなんて簡単だよ」という人も少なくなってきた気がするが。"
+    },
+    {
+        "title": "How To Become A Hacker",
+        "link": "http://www.catb.org/~esr/faqs/hacker-howto.html",
+        "tag": [
+            "アーキテクチャー",
+            "エンジニアリング",
+            "ハードウェア"
+        ],
+        "comment": "流石に内容が古い気がする。Microsoftもオープンな方向に舵を切り始め、ここらへんの扱いも変わってくるのではないだろか。ハッカーの条件の一つに「英語が喋れる」とあるのは、間違いなく文化帝国主義だからやめたほうがいい。最近では英語を喋れることをやたらと持ち上げようとする風潮があるが、正直どうなのかと思う。"
+    },
+    {
+        "title": "Object Oriented Programming is an expensive disaster which must end",
+        "link": "http://www.catb.org/~esr/faqs/hacker-howto.html",
+        "tag": [
+            "オブジェクト指向",
+            "関数型プログラミング"
+        ],
+        "comment": "\"disaster\"は言い過ぎにしろ、<a href=\"https://qiita.com/minebreaker/items/45ffaaa5e8729e16cfb4\">staticおじさん叩きは一種の病気だったように思う。</a>"
+    },
+    {
+        "title": "Dependency rejection",
+        "link": "http://blog.ploeh.dk/2017/02/02/dependency-rejection/",
+        "tag": [
+            "オブジェクト指向",
+            "関数型プログラミング"
+        ],
+        "comment": "個人的にはこの記事には賛成しない。詳しくは<a href=\"https://qiita.com/minebreaker/items/836c38b236049b285b05\">拙文</a>をご笑覧ください。"
+    },
+    {
+        "title": "Reversing the technical interview",
+        "link": "https://aphyr.com/posts/340-reversing-the-technical-interview",
+        "tag": [
+            "面接",
+            "プログラミング言語",
+            "アルゴリズム",
+            "Clojure"
+        ],
+        "comment": "リスト操作と言えば面接の定番だが(※日本を除く)、それで遊んだ傑作。当サイトでの解説は<a href=\"/programming/misc/reversingthetechnicalinterview.html\">こちら</a>をどうぞ。"
+    },
+    {
+        "title": "Hexing the technical interview",
+        "link": "https://aphyr.com/posts/341-hexing-the-technical-interview",
+        "tag": [
+            "面接",
+            "プログラミング言語",
+            "アルゴリズム",
+            "Clojure"
+        ],
+        "comment": "今度はJavaバイトコードをClojureで書き始める。当サイトの解説は<a href=\"/programming/misc/hexingthetechnicalinterview.html\">こちら</a>。"
+    },
+    {
+        "title": "Typing the technical interview",
+        "link": "https://aphyr.com/posts/342-typing-the-technical-interview",
+        "tag": [
+            "面接",
+            "プログラミング言語",
+            "アルゴリズム",
+            "Haskell"
+        ]
+    },
+    {
+        "title": "スターバックスは2フェーズコミットを使わない",
+        "link": "http://www.enterpriseintegrationpatterns.com/ramblings/18_starbucks.html",
+        "translationLink": "https://code.google.com/archive/p/gregors-ramblings-ja/wikis/18_starbucks.wiki",
+        "tag": [
+            "アーキテクチャー"
+        ]
+    },
+    {
+        "title": "Taking PHP Seriously",
+        "link": "https://slack.engineering/taking-php-seriously-cf7a60065329",
+        "tag": [
+            "PHP",
+            "プログラミング言語"
+        ],
+        "comment": "PHPを安易に叩かないために。"
+    },
+    {
+        "title": "GNU Make",
+        "link": "http://www.oreilly.co.jp/library/4873112699/",
+        "tag": [
+            "本"
+        ],
+        "comment": "オライリーから出てる\"GNU Make\"が只で読める。"
+    },
+    {
+        "title": "Structure and Interpretation of Computer Programs",
+        "link": "https://mitpress.mit.edu/sites/default/files/sicp/index.html",
+        "tag": [
+            "本",
+            "関数型プログラミング",
+            "アーキテクチャー"
+        ],
+        "comment": "始めの数章は面白い。それ以上になると難しくて。。。"
+    },
+    {
+        "title": "How to Design Programs",
+        "link": "http://www.htdp.org/2018-01-06/Book/index.html",
+        "tag": [
+            "本",
+            "アーキテクチャー"
+        ],
+        "comment": "古典。SICPの簡単版と言われる。読もう読もうと思って読んでない。。。"
+    }
+]

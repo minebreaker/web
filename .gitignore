@@ -1,2 +1,4 @@
-public/
-.firebase/
+/public/
+/.firebase/
+/web.iml
+/.idea/
