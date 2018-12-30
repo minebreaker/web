@@ -94,15 +94,6 @@ code::-webkit-scrollbar-corner {
     }
 }
 
-.pull-right {
-    margin-right: 8px;
-    float: right;
-}
-
-.inlined {
-    display: inline;
-}
-
 blockquote {
     border-left: 2px solid darkslategray;
     padding-left: 10px;
@@ -132,12 +123,12 @@ blockquote {
     text-decoration: none;
 }
 
-img {
-    max-width: 90%;
-}
-
 .site-link:hover {
     background-color: white;
+}
+
+img {
+    max-width: 90%;
 }
 
 .footer {
@@ -168,19 +159,11 @@ img {
 
 .icon {
     fill: black;
+    cursor: pointer;
 }
 
-/* 通知 */
-
-.notification {
-    padding: 12px;
-    color: white;
-    background-color: black;
-}
-
-.notification-icon {
-    vertical-align: text-top;
-    fill: white;
+.icon-link {
+    text-decoration: none;
 }
 
 /* パンくずリスト */

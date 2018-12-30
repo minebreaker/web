@@ -1,0 +1,53 @@
+:root {
+    --color-primary: rgb(43, 43, 43);
+    --color-secondary: rgb(60, 63, 65);
+    --color-tertiary: rgb(174, 138, 190);
+    --color-white: rgb(169, 183, 198);
+}
+
+body {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+a {
+    color: var(--color-tertiary);
+}
+
+a:hover {
+    background-color: var(--color-white);
+}
+
+table, th, td {
+    border-color: var(--color-primary);
+}
+
+th {
+    color: var(--color-primary);
+    background-color: var(--color-white)
+}
+
+td {
+    background-color: var(--color-secondary)
+}
+
+code {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}
+
+blockquote {
+    border-left-color: var(--color-white);
+}
+
+.site-link {
+    color: var(--color-white);
+}
+
+.site-link:hover {
+    background-color: var(--color-primary);
+}
+
+.icon {
+    fill: var(--color-white);
+}
