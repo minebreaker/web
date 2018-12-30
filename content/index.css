@@ -42,6 +42,13 @@ td {
     background-color: lightgray
 }
 
+code {
+    background-color: lightgray;
+    color: black;
+    margin: 0 0.1em;
+    padding: 0 0.3em;
+}
+
 /* クローム拡張でスクロールバーを変更 */
 code::-webkit-scrollbar {
     width: 8px;
