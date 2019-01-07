@@ -6,8 +6,8 @@ module.exports = {
         filename: "[name].js",
         path: __dirname + "/out"
     },
-    mode: "development",
-    devtool: "eval",
+    mode: "production",
+    devtool: false,
     module: {
         rules: [
             {
