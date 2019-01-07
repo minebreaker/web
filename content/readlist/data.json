@@ -233,5 +233,22 @@
             "アーキテクチャー"
         ],
         "comment": "古典。SICPの簡単版と言われる。読もう読もうと思って読んでない。。。"
+    },
+    {
+        "title": "Please do not attempt to simplify this code",
+        "link": "https://news.ycombinator.com/item?id=18772873",
+        "tag": [
+            "アーキテクチャー"
+        ],
+        "comment": "スペースシャトル方式プログラミング。"
+    },
+    {
+        "title": "What If Linus Torvalds Gets Hit By A Bus?",
+        "link": "https://www.crummy.com/writing/segfault.org/Bus.html",
+        "tag": [
+            "マネージメント",
+            "エンジニアリング"
+        ],
+        "comment": "でも属人化に対する有効な解決策は、存在しない気がする。<a href=\"http://www.itmedia.co.jp/enterprise/articles/1305/16/news007.html\">どうすればいいというのか。</a>"
     }
 ]
