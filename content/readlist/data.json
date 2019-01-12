@@ -250,5 +250,24 @@
             "エンジニアリング"
         ],
         "comment": "でも属人化に対する有効な解決策は、存在しない気がする。<a href=\"http://www.itmedia.co.jp/enterprise/articles/1305/16/news007.html\">どうすればいいというのか。</a>"
+    },
+    {
+        "title": "How Does React Tell a Class from a Function?",
+        "link": "https://overreacted.io/how-does-react-tell-a-class-from-a-function/",
+        "hn": "https://news.ycombinator.com/item?id=18586004",
+        "tag": [
+            "JavaScript",
+            "React"
+        ]
+    },
+    {
+        "title": "Strategic Scala Style: Principle of Least Power",
+        "link": "http://www.lihaoyi.com/post/StrategicScalaStylePrincipleofLeastPower.html",
+        "hn": "",
+        "tag": [
+            "Scala",
+            "アーキテクチャー"
+        ],
+        "comment": "Scalaをどう書くべきかを議論した記事。それ以外の言語でも有益な考察が満載。"
     }
 ]
