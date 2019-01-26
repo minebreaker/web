@@ -11,7 +11,7 @@
 
 ## ポートフォリオ
 
-[GitHub](https://github.com/minebreaker-tf)
+[GitHub](https://github.com/minebreaker)
 [BitBucket](https://bitbucket.org/minebreaker_tf)
 [Qiita](https://qiita.com/minebreaker)
 
