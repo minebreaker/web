@@ -2,3 +2,4 @@
 /.firebase/
 /web.iml
 /.idea/
+/**/node_modules/*

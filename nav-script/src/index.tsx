@@ -1,11 +1,16 @@
 import * as React from "react"
 import * as ReactDOM from "react-dom"
-import { Application } from "./application"
+import { Footer } from "./footer"
+import { setUpTheme } from "./theme"
+
 
 function main() {
+
+    setUpTheme()
+
     ReactDOM.render(
-        <Application />,
-        document.getElementById("app")
+        <Footer />,
+        document.getElementById("footer")
     )
 }
 

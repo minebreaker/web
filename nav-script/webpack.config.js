@@ -3,7 +3,7 @@ module.exports = {
         index: "./src/index.tsx"
     },
     output: {
-        filename: "readlist.js",
+        filename: "index.js",
         path: __dirname + "/out"
     },
     mode: "production",
