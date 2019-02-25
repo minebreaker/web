@@ -269,5 +269,24 @@
             "アーキテクチャー"
         ],
         "comment": "Scalaをどう書くべきかを議論した記事。それ以外の言語でも有益な考察が満載。"
+    },
+    {
+        "title": "25 years of coding, and I'm just beginning",
+        "link": "https://dev.to/dechamp/25-years-of-coding-and-im-just-beginning-442n",
+        "hn": "https://news.ycombinator.com/item?id=18946712",
+        "tag": [
+            "エンジニアリング"
+        ]
+    },
+    {
+        "title": "The Tao of Programming",
+        "link": "http://www.mit.edu/~xela/tao.html",
+        "translationLink": "http://www.sodan.org/~knagano/misc/tao-of-programming.html",
+        "hn": "https://news.ycombinator.com/item?id=8035332",
+        "tag": [
+            "道",
+            "エンジニアリング"
+        ],
+        "comment": "<blockquote>A manager went to the Master Programmer and showed him the requirements document for a new application. The manager asked the Master: \"How long will it take to design this system if I assign five programmers to it?\"\n\n\"It will take one year,\" said the Master promptly.\n\n\"But we need this system immediately or even sooner! How long will it take if I assign ten programmers to it?\"\n\nThe Master Programmer frowned. \"In that case, it will take two years.\"\n\n\"And what if I assign a hundred programmers to it?\"\n\nThe Master Programmer shrugged. \"Then the design will never be completed,\" he said.</blockquote>"
     }
 ]

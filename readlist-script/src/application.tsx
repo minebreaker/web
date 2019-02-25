@@ -59,7 +59,8 @@ export class Application extends React.Component<{}, { search: string, data: Arr
     }
 }
 
-function Input(props: { value: string, onChange: (value: string) => void }) {
+function Input(this: { inputEl?: HTMLElement | null }, props: { value: string, onChange: (value: string) => void }) {
+    const el = React.useRef<HTMLInputElement>(null)
     return (
         <div style={{
             display: "inline-block",
@@ -67,15 +68,19 @@ function Input(props: { value: string, onChange: (value: string) => void }) {
             backgroundColor: "darkslategray",
             padding: "0.2rem 1rem",
             width: "40vw"
-        }}>
+        }}
+             onClick={() => el.current!.focus()}>
+            <Icon.Search style={{ verticalAlign: "middle" }}
+                         fill="whitesmoke" />
             <input type="text"
                    style={{
                        border: "none",
                        outline: "none",
                        backgroundColor: "darkslategray",
                        color: "whitesmoke",
-                       width: "calc(100% - 24px)"
+                       width: "calc(100% - 48px)"
                    }}
+                   ref={el}
                    value={props.value}
                    onChange={e => props.onChange(e.target.value)} />
             <Icon.Clear style={{ verticalAlign: "middle", cursor: "pointer" }}
