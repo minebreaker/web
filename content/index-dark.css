@@ -49,5 +49,36 @@ blockquote {
 }
 
 .icon {
+    fill: var(--color-primary);
+}
+
+.readlist-search {
+    color: var(--color-white);
+    background-color: var(--color-secondary);
+}
+
+.readlist-icon {
     fill: var(--color-white);
+}
+
+.readlist-icon-translate {
+    fill: var(--color-white);
+}
+
+.readlist-card {
+    background-color: var(--color-secondary);
+}
+
+.readlist-card-header {
+    color: var(--color-white);
+    border-bottom-color: var(--color-white);
+}
+
+.readlist-tag {
+    color: var(--color-primary);
+    background-color: var(--color-white);
+}
+
+.readlist-tag-icon {
+    fill: var(--color-primary);
 }

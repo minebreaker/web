@@ -62,29 +62,28 @@ export class Application extends React.Component<{}, { search: string, data: Arr
 function Input(this: { inputEl?: HTMLElement | null }, props: { value: string, onChange: (value: string) => void }) {
     const el = React.useRef<HTMLInputElement>(null)
     return (
-        <div style={{
-            display: "inline-block",
-            borderRadius: "1rem",
-            backgroundColor: "darkslategray",
-            padding: "0.2rem 1rem",
-            width: "40vw"
-        }}
+        <div className="readlist-search"
+             style={{
+                 display: "inline-block",
+                 borderRadius: "1rem",
+                 padding: "0.2rem 1rem",
+                 width: "40vw"
+             }}
              onClick={() => el.current!.focus()}>
-            <Icon.Search style={{ verticalAlign: "middle" }}
-                         fill="whitesmoke" />
+            <Icon.Search className="readlist-icon"
+                         style={{ verticalAlign: "middle" }} />
             <input type="text"
+                   className="readlist-search"
                    style={{
                        border: "none",
                        outline: "none",
-                       backgroundColor: "darkslategray",
-                       color: "whitesmoke",
                        width: "calc(100% - 48px)"
                    }}
                    ref={el}
                    value={props.value}
                    onChange={e => props.onChange(e.target.value)} />
-            <Icon.Clear style={{ verticalAlign: "middle", cursor: "pointer" }}
-                        fill="whitesmoke"
+            <Icon.Clear className="readlist-icon"
+                        style={{ verticalAlign: "middle", cursor: "pointer" }}
                         onClick={() => props.onChange("")} />
         </div>
     )
@@ -92,17 +91,18 @@ function Input(this: { inputEl?: HTMLElement | null }, props: { value: string, o
 
 function Entry(props: { entry: EntryModel, onTagSelect: (tag: string) => void }) {
     return (
-        <div style={{
-            backgroundColor: "lightgray",
-            margin: "1rem",
-            padding: "1rem 3rem"
-        }}>
-            <div style={{
-                display: "flex",
-                justifyContent: "start",
-                alignItems: "flex-end",
-                borderBottom: "solid 2px darkslategray"
-            }}>
+        <div className="readlist-card"
+             style={{
+                 margin: "1rem",
+                 padding: "1rem 3rem"
+             }}>
+            <div className="readlist-card-header"
+                 style={{
+                     display: "flex",
+                     justifyContent: "start",
+                     alignItems: "flex-end",
+                     borderBottom: "solid 2px"
+                 }}>
                 <h4 style={{ fontSize: "1.4rem", margin: 0 }}>
                     <a style={{ textDecoration: "none" }}
                        href={props.entry.link}>
@@ -112,7 +112,7 @@ function Entry(props: { entry: EntryModel, onTagSelect: (tag: string) => void })
                 {props.entry.translationLink && (
                     <div style={{ marginLeft: "1em" }}>
                         <a href={props.entry.translationLink}>
-                            <Icon.Translate fill="darkslategray" />
+                            <Icon.Translate className="readlist-icon-translate" />
                         </a>
                     </div>
                 )}
@@ -132,16 +132,15 @@ function Entry(props: { entry: EntryModel, onTagSelect: (tag: string) => void })
 
 function Tag(props: { tag: string, onClick: (tag: string) => void }) {
     return (
-        <span style={{
-            margin: "0.2em",
-            backgroundColor: "darkslategray",
-            color: "whitesmoke",
-            borderRadius: "1rem",
-            padding: "0.2rem 1rem",
-            cursor: "pointer"
-        }}
+        <span className="readlist-tag"
+              style={{
+                  margin: "0.2em",
+                  borderRadius: "1rem",
+                  padding: "0.2rem 1rem",
+                  cursor: "pointer"
+              }}
               onClick={() => props.onClick(props.tag)}>
-            <Icon.LabelOutline style={{ verticalAlign: "sub" }} fill="whitesmoke" />
+            <Icon.LabelOutline className="readlist-tag-icon" style={{ verticalAlign: "sub" }} />
             {props.tag}
         </span>
     )

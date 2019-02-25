@@ -171,3 +171,34 @@ img {
     padding-top: 2.5em;
     font-size: 0.7em;
 }
+
+.readlist-search {
+    color: whitesmoke;
+    background-color: darkslategray;
+}
+
+.readlist-icon {
+    fill: whitesmoke;
+}
+
+.readlist-icon-translate {
+    fill: darkslategray;
+}
+
+.readlist-card {
+    background-color: lightgray;
+}
+
+.readlist-card-header {
+    color: darkslategray;
+    border-bottom-color: darkslategray;
+}
+
+.readlist-tag {
+    color: whitesmoke;
+    background-color: darkslategray;
+}
+
+.readlist-tag-icon {
+    fill: whitesmoke;
+}
