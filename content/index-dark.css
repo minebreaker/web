@@ -49,7 +49,7 @@ blockquote {
 }
 
 .icon {
-    fill: var(--color-primary);
+    fill: var(--color-white);
 }
 
 .readlist-search {
