@@ -6,10 +6,10 @@ import { toggleTheme } from "./theme"
 export function Footer() {
     return (
         <div className="nav transparent">
-            <a className="icon-link"
-               title="Search this site. This is a beta feature and uses LocalStorage API to save your settings. If you hate it please disable JavaScript.">
-                <Icon.Search className="icon" width={48} height={48} fillOpacity={0.4} />
-            </a>
+            {/*<a className="icon-link"*/}
+               {/*title="Search this site. This is a beta feature and uses LocalStorage API to save your settings. If you hate it please disable JavaScript.">*/}
+                {/*<Icon.Search className="icon" width={48} height={48} fillOpacity={0.4} />*/}
+            {/*</a>*/}
             <a className="icon-link"
                title="Toggle theme. This is a beta feature and uses LocalStorage API to save your settings. If you hate it please disable JavaScript."
                aria-label="Toggle theme"
