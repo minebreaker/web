@@ -18,6 +18,21 @@ a:hover {
     background-color: var(--color-white);
 }
 
+.anchor-link {
+    text-decoration: none;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.anchor-link:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.anchor-link > svg {
+    fill: var(--color-tertiary);
+}
+
 table, th, td {
     border-color: var(--color-primary);
 }

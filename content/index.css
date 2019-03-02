@@ -27,6 +27,29 @@ a:hover {
     background-color: lightgray;
 }
 
+.anchor-link {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.anchor-link:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Link icon */
+.anchor-link > svg {
+    display: none;
+    vertical-align: middle;
+    margin-left: 0.4em;
+    fill: lightgray;
+}
+
+.anchor-link:hover > svg {
+    display: inline-block;
+}
+
 table, th, td {
     border: 4px solid white;
     border-collapse: collapse;
