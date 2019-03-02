@@ -17,4 +17,4 @@
 
 
 ## 間違い・ご意見等
-[https://bitbucket.org/minebreaker_tf/web/](https://bitbucket.org/minebreaker_tf/web/)にイシューなりプルリクなり頂ければ。
+[https://github.com/minebreaker/web]()にイシューなりプルリクなり頂ければ。
