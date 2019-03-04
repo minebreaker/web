@@ -195,6 +195,33 @@ img {
     font-size: 0.7em;
 }
 
+/* 索引 */
+
+.index {
+    position: fixed;
+    width: 196px;
+    top: 4rem;
+    right: 1rem;
+    font-size: 0.8rem;
+}
+
+@media screen and ( max-width: 768px ) {
+    .index {
+        display: none;
+    }
+}
+
+.index > * li {
+    list-style-type: none;
+}
+
+.index > * ul {
+    padding-inline-start: 1rem;
+}
+
+
+/* readlist関連 */
+
 .readlist-search {
     color: whitesmoke;
     background-color: darkslategray;
