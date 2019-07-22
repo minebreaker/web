@@ -6,7 +6,7 @@
 ## Build
 
 ```
-cd nac-script
+cd nav-script
 npm run build
 cd readlist-script
 npm run build
