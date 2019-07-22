@@ -3,3 +3,4 @@
 /web.iml
 /.idea/
 /**/node_modules/*
+firebase-debug.log
