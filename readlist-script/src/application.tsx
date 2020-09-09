@@ -77,7 +77,7 @@ function Input(this: { inputEl?: HTMLElement | null }, props: { value: string, o
                    style={{
                        border: "none",
                        outline: "none",
-                       width: "calc(100% - 48px)"
+                       width: "calc(100% - 52px)"
                    }}
                    ref={el}
                    value={props.value}
