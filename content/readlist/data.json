@@ -299,5 +299,13 @@
             "エンジニアリング"
         ],
         "comment": "<blockquote>A manager went to the Master Programmer and showed him the requirements document for a new application. The manager asked the Master: \"How long will it take to design this system if I assign five programmers to it?\"\n\n\"It will take one year,\" said the Master promptly.\n\n\"But we need this system immediately or even sooner! How long will it take if I assign ten programmers to it?\"\n\nThe Master Programmer frowned. \"In that case, it will take two years.\"\n\n\"And what if I assign a hundred programmers to it?\"\n\nThe Master Programmer shrugged. \"Then the design will never be completed,\" he said.</blockquote>"
+    },
+    {
+        "title": "The 3 reasons you’re forced into creating weak passwords",
+        "link": "https://www.troyhunt.com/3-reasons-youre-forced-into-creating/",
+        "tag": [
+            "セキュリティー"
+        ],
+        "comment": "パスワードの暗号化駄目絶対"
     }
 ]
