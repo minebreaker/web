@@ -191,6 +191,17 @@
         ]
     },
     {
+        "title": "Rewriting the Technical Interview",
+        "link": "https://aphyr.com/posts/353-rewriting-the-technical-interview",
+        "tag": [
+            "面接",
+            "プログラミング言語",
+            "アルゴリズム",
+            "Clojure"
+        ],
+        "comment": "\"fixed-point\" は不動点を「剥く」ためのもの。fそれ以上関数を適用しても変化しない状態まで適用を繰り返す。"
+    },
+    {
         "title": "スターバックスは2フェーズコミットを使わない",
         "link": "http://www.enterpriseintegrationpatterns.com/ramblings/18_starbucks.html",
         "translationLink": "https://code.google.com/archive/p/gregors-ramblings-ja/wikis/18_starbucks.wiki",
