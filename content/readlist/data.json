@@ -167,6 +167,7 @@
             "アルゴリズム",
             "Clojure"
         ],
+        "hn": "https://news.ycombinator.com/item?id=13886626",
         "comment": "リスト操作と言えば面接の定番だが(※日本を除く)、それで遊んだ傑作。当サイトでの解説は<a href=\"/programming/misc/reversingthetechnicalinterview.html\">こちら</a>をどうぞ。"
     },
     {
@@ -178,6 +179,7 @@
             "アルゴリズム",
             "Clojure"
         ],
+        "hn": "https://news.ycombinator.com/item?id=21717039",
         "comment": "今度はJavaバイトコードをClojureで書き始める。当サイトの解説は<a href=\"/programming/misc/hexingthetechnicalinterview.html\">こちら</a>。"
     },
     {
@@ -188,7 +190,8 @@
             "プログラミング言語",
             "アルゴリズム",
             "Haskell"
-        ]
+        ],
+        "hn": "https://news.ycombinator.com/item?id=14078852"
     },
     {
         "title": "Rewriting the Technical Interview",
@@ -199,6 +202,7 @@
             "アルゴリズム",
             "Clojure"
         ],
+        "hn": "https://news.ycombinator.com/item?id=24481198",
         "comment": "\"fixed-point\" は不動点を「剥く」ためのもの。fそれ以上関数を適用しても変化しない状態まで適用を繰り返す。"
     },
     {
@@ -306,6 +310,15 @@
         "tag": [
             "セキュリティー"
         ],
+        "comment": "パスワードマネージャーを使おう"
+    },
+    {
+        "title": "We Didn't Encrypt Your Password, We Hashed It. Here's What That Means:",
+        "link": "https://www.troyhunt.com/we-didnt-encrypt-your-password-we-hashed-it-heres-what-that-means/",
+        "tag": [
+            "セキュリティー"
+        ],
+        "hn": "https://news.ycombinator.com/item?id=24378617",
         "comment": "パスワードの暗号化駄目絶対"
     }
 ]

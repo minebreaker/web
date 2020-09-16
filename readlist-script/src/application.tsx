@@ -6,6 +6,7 @@ type EntryModel = {
     link: string
     translationLink?: string
     tag: Array<string>
+    hn?: string
     comment?: string
 }
 
@@ -113,6 +114,13 @@ function Entry(props: { entry: EntryModel, onTagSelect: (tag: string) => void })
                     <div style={{ marginLeft: "1em" }}>
                         <a href={props.entry.translationLink}>
                             <Icon.Translate className="readlist-icon-translate" />
+                        </a>
+                    </div>
+                )}
+                {props.entry.hn && (
+                    <div style={{ marginLeft: "1em" }}>
+                        <a href={props.entry.hn}>
+                            HN
                         </a>
                     </div>
                 )}
