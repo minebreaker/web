@@ -25,9 +25,6 @@
 
 ## Contents
 
-### [About](about.html)
-このサイトについて
-
 ### [Programming](programming)
 プログラミングに関する基礎知識
 
@@ -36,3 +33,9 @@
 
 ### [PC](hardware/pc.html)
 自作PCの紹介。Ryzen
+
+### [Third Sight](https://addons.mozilla.org/ja/firefox/addon/third-sight/)
+タブの履歴を表示するFireFox拡張機能
+
+### [About](about.html)
+このサイトについて
